@@ -1,0 +1,224 @@
+body {
+	margin: 0;
+}
+nav	{
+	text-align: center;
+	position: fixed;
+	top: 0;
+	opacity: 0.8;
+	background-color: white;
+	width: 100%;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 100px;
+	font-weight: lighter;
+	margin: 12px;
+}
+
+nav a:hover {
+	background-color: #ccc;
+
+}
+header	{
+	text-align: center;
+	background-image: url(img/polygons.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: white;
+	padding: 200px 0;
+}
+header a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 12px 24px;
+	border-radius: 10px;
+	background-color: white;
+}
+header p{
+	margin: 45px 0;
+}
+
+header a:hover {
+	background-color: #b1b1b2;
+	display: inline-block;
+}
+h2, .comment  {
+	text-align: center;
+}
+#fire {
+	width: 400px;
+	float: right;
+}
+#company {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: justify;
+}
+#comand {
+	text-align: center;
+}
+
+.members {
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	text-align: left;
+	border-color: grey;
+	border-width: 2px;
+	border-style: solid;
+	box-shadow: 0 2px 5px grey;
+}
+.members img {
+	width: 100%
+}
+
+.members h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+ 
+.members a {
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	text-decoration: none;
+	color: white;
+	padding: 14px 0;
+	text-align: center;
+	border-radius: 10px;
+}
+.darkgrey div {
+	display: inline-block;
+}
+#darkgrey {
+	min-height: 780px;
+	width: 100%;
+	background-color: #666;
+}
+
+.status {
+	opacity: 0.6;
+}
+#whiteheader, #whitecomment {
+	color: white;
+	margin: 45px 0;
+}
+.black li {
+	list-style-type: none;
+	border-bottom: #ddd 1px solid;
+	padding: 16px 0;
+
+}
+.black .normal {
+	color: white;
+	background-color: black;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.black {
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0;
+}
+.epic {
+	background-color: #055b73!important;
+	padding: 48px 0!important;
+}
+
+.important {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.price {
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.period {
+	opacity: 0.5;
+}
+
+li {
+	text-align: center;
+}
+li a {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	padding: 14px 28px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 2px;
+	display: inline-block;
+}
+.buythis {
+	background-color: #f1f1f1; 
+}
+
+#firstbl {
+	margin: 10px 10px 10px 70px;
+}
+input {
+	padding: 8px;
+	width: 90%;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	border-color: 
+}
+button {
+	background-color: black;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	border-radius: 10px;
+	font-family: 'Times New Roman';
+	cursor: pointer;
+	border: none;
+	outline: none;
+} 
+.sixtymargin {
+ 	padding-left: 30px;
+ 	text-align: left;
+ 	background-repeat: no-repeat;
+ 	background-size: 18px 18px;
+ 	background-position: left center; 
+}
+#contacts p {
+	margin-left: 5%;
+}
+#contacts {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px 0;
+}
+#address {
+	background-image: url(img/address.png);
+}
+#phone {
+	background-image: url(img/phone.png)
+}
+#mail {
+	background-image: url(img/mail.png)
+}
+p#indicomment {
+	margin-left: 0;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+.footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
